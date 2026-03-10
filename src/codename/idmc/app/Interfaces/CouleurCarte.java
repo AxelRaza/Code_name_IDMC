@@ -8,7 +8,6 @@ package codename.idmc.app.Interfaces;
  *
  * @author User
  */
-public class CouleurCarte {
 public enum CardColor {
     RED,        // equipe rouge
     BLUE,       // belongs to Blue team
@@ -16,4 +15,3 @@ public enum CardColor {
     ASSASSIN    // instant-loss card
 }
 
-}
