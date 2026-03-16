@@ -14,9 +14,10 @@ public class Carte {
     private String contenu;
     //private String type; // Remplace l'énumération (ex: "Rouge", "Bleu", "Neutre", "Assassin")
     private boolean retournee;
+    private CouleurCarte type;
 
     //constructor 
-    public Carte(int idCat, String contenu, String categorie, TypeCarte type) {
+    public Carte(int idCat, String contenu, String categorie, CouleurCarte type) {
         this.contenu = contenu;
         this.type = type;
         this.retournee = false;
@@ -43,11 +44,11 @@ public class Carte {
         this.contenu = contenu;
     }
 
-    public TypeCarte getType() {
+    public CouleurCarte getType() {
         return type;
     }
 
-    public void setType(TypeCarte type) {
+    public void setType(CouleurCarte type) {
         this.type = type;
     }
 
